@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study World — MCA Sem 3 | Arpit Manoj Bangre</title>
+  
+  <!-- SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- Distinct Editorial Typography (Space Grotesk + DM Sans + Fira Code) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Fira+Code:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Highlight.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- ============================================================
+         COLUMN 1: SIDEBAR
+    ============================================================ -->
+    <aside class="sidebar" id="mainSidebar">
+      
+      <!-- Brand Header -->
+      <div class="sidebar-header">
+        <a href="#" class="brand-logo" onclick="location.reload()">
+          <svg class="brand-icon-svg" viewBox="0 0 100 100">
+            <defs>
+              <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#2563EB" />
+                <stop offset="100%" stop-color="#1D4ED8" />
+              </linearGradient>
+            </defs>
+            <rect width="100" height="100" rx="24" fill="url(#logoGrad)" />
+            <path d="M26 34 C36 30 46 34 50 38 C54 34 64 30 74 34 V68 C64 64 54 68 50 72 C46 68 36 64 26 68 Z" fill="#FFFFFF" />
+            <polygon points="50,18 54,27 63,27 56,33 59,42 50,36 41,42 44,33 37,27 46,27" fill="#F59E0B" />
+          </svg>
+          <div class="brand-title">Study<span>World</span></div>
+        </a>
+        <button class="header-action-btn" id="themeToggleBtn" title="Toggle Theme">
+          🌙
+        </button>
+      </div>
+
+      <!-- Author Card -->
+      <div class="author-card" id="authorProfileCard">
+        <!-- Rendered via JS -->
+      </div>
+
+      <!-- Scrollable Navigation Items -->
+      <div class="sidebar-content">
+        
+        <!-- Section: Quick Links -->
+        <div class="sidebar-section">
+          <div class="section-label">Quick Links</div>
+          
+          <div class="nav-item active" onclick="selectSubject('3t4_ai')">
+            <div class="nav-item-left">
+              <span class="icon">🤖</span>
+              <span class="nav-title">Artificial Intelligence</span>
+            </div>
+            <span class="nav-badge">4 Cr</span>
+          </div>
+
+          <div class="nav-item" onclick="openOverview('roadmap')">
+            <div class="nav-item-left">
+              <span class="icon">🏆</span>
+              <span class="nav-title">Scorecard & Target</span>
+            </div>
+            <span class="nav-badge">7.20</span>
+          </div>
+
+          <div class="nav-item" onclick="openCgpaModal()">
+            <div class="nav-item-left">
+              <span class="icon">🎯</span>
+              <span class="nav-title">CGPA Goal Calc</span>
+            </div>
+            <span class="nav-badge">Calc</span>
+          </div>
+
+          <div class="nav-item" onclick="openOverview('overview')">
+            <div class="nav-item-left">
+              <span class="icon">📋</span>
+              <span class="nav-title">Master Scheme</span>
+            </div>
+            <span class="nav-badge">28 Cr</span>
+          </div>
+        </div>
+
+        <!-- Section: Semester Subjects -->
+        <div class="sidebar-section">
+          <div class="section-label">Semester III Subjects</div>
+          <div id="sidebarSubjectList">
+            <!-- Rendered via JS -->
+          </div>
+        </div>
+
+        <!-- Section: Official PDF -->
+        <div class="sidebar-section">
+          <div class="section-label">Reference</div>
+          <div class="nav-item" onclick="window.open('SYLLABUS RTMNU MCA.pdf', '_blank')">
+            <div class="nav-item-left">
+              <span class="icon">📄</span>
+              <span class="nav-title">RTMNU Syllabus PDF</span>
+            </div>
+            <span class="nav-badge">PDF</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar Footer Signature -->
+      <div class="sidebar-footer">
+        Created by <strong>Arpit Manoj Bangre</strong><br>
+        Shri Shivaji Science College, Nagpur
+      </div>
+
+    </aside>
+
+
+    <!-- ============================================================
+         COLUMN 2: TOPIC LIST
+    ============================================================ -->
+    <section class="topic-list-panel">
+      
+      <div class="topic-list-header">
+        
+        <div class="search-container">
+          <span class="search-icon-left">🔍</span>
+          <input type="text" class="search-input" id="mainSearchInput" placeholder="Search topics, units, algorithms...">
+          <span class="search-shortcut-hint">Ctrl+K</span>
+        </div>
+
+        <div class="topic-filter-bar">
+          <div class="active-category-title" id="activeCategoryTitle">
+            🤖 Artificial Intelligence
+          </div>
+        </div>
+
+        <div class="filter-tabs-row">
+          <div class="filter-chip active" id="chipAll" onclick="setViewMode('syllabus', 'all')">All Units</div>
+          <div class="filter-chip" id="chipImp" onclick="setViewMode('imp_questions')">🔥 IMP Qs</div>
+          <div class="filter-chip" id="chipSolved" onclick="setViewMode('solved_answers')">💡 Solved</div>
+          <div class="filter-chip" id="chipBlueprint" onclick="setViewMode('blueprint')">📊 Blueprint</div>
+        </div>
+
+      </div>
+
+      <!-- Topic Cards -->
+      <div class="topic-cards-container" id="topicCardsContainer">
+        <!-- Rendered via JS -->
+      </div>
+
+    </section>
+
+
+    <!-- ============================================================
+         COLUMN 3: CANVAS & READING AREA
+    ============================================================ -->
+    <main class="note-canvas-panel">
+      
+      <!-- Toolbar -->
+      <header class="canvas-toolbar">
+        
+        <div class="toolbar-left">
+          <button class="mobile-menu-btn" id="mobileMenuBtn" title="Toggle Sidebar">☰</button>
+          <button class="mobile-menu-btn" id="mobileBackBtn" title="Back to Topics" style="display: none;">←</button>
+          
+          <nav class="canvas-breadcrumbs" id="canvasBreadcrumb">
+            <!-- Rendered via JS -->
+          </nav>
+        </div>
+
+        <div class="toolbar-right">
+          <button class="tool-btn" id="fullscreenBtn" onclick="toggleFullscreenView()" title="Toggle Fullscreen Focus Mode (F)">
+            <span>⛶</span> <span id="fullscreenBtnText">Fullscreen</span>
+          </button>
+
+          <button class="tool-btn" id="fontDecBtn" title="Decrease Font Size">A-</button>
+          <button class="tool-btn" id="fontIncBtn" title="Increase Font Size">A+</button>
+          
+          <button class="tool-btn" onclick="window.print()" title="Print Note">
+            <span>🖨️</span> Print
+          </button>
+
+          <button class="tool-btn primary" onclick="openCgpaModal()">
+            <span>🎯</span> CGPA Goal
+          </button>
+        </div>
+
+      </header>
+
+      <!-- Reading Canvas -->
+      <div class="canvas-body-wrapper">
+        
+        <article class="markdown-scroll-container">
+          <div class="markdown-prose-container" id="markdownProseContent">
+            <!-- Dynamic Markdown Prose -->
+          </div>
+        </article>
+
+        <!-- Right Side TOC -->
+        <nav class="toc-sidebar" aria-label="Table of Contents">
+          <div class="toc-title">Table of Contents</div>
+          <ul class="toc-list" id="tocList">
+            <!-- Dynamic TOC Links -->
+          </ul>
+        </nav>
+
+      </div>
+
+    </main>
+
+  </div>
+
+
+  <!-- ============================================================
+       MOBILE BOTTOM BAR
+  ============================================================ -->
+  <nav class="mobile-bottom-bar">
+    <button class="mobile-nav-btn active" onclick="document.querySelector('.sidebar')?.classList.toggle('open')">
+      <span>📚</span> Subjects
+    </button>
+    <button class="mobile-nav-btn" onclick="document.getElementById('mobileBackBtn')?.click()">
+      <span>📑</span> Topics
+    </button>
+    <button class="mobile-nav-btn" onclick="openCgpaModal()">
+      <span>🎯</span> CGPA
+    </button>
+    <button class="mobile-nav-btn" onclick="toggleTheme()">
+      <span>🌙</span> Theme
+    </button>
+  </nav>
+
+
+  <!-- ============================================================
+       CGPA TARGET CALCULATOR MODAL
+  ============================================================ -->
+  <div class="modal-backdrop" id="cgpaModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">🎯 RTMNU Degree Target Calculator</h3>
+        <button class="modal-close-btn" onclick="closeCgpaModal()">✕</button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="calc-grid">
+          <div class="calc-box">
+            <div class="calc-label">Sem 1 SGPA (28 Cr) [Earned]</div>
+            <input type="number" step="0.01" class="calc-input" id="calcSem1" value="7.29" oninput="calculateLiveCgpa()">
+          </div>
+
+          <div class="calc-box">
+            <div class="calc-label">Sem 2 SGPA (32 Cr) [Earned]</div>
+            <input type="number" step="0.01" class="calc-input" id="calcSem2" value="7.13" oninput="calculateLiveCgpa()">
+          </div>
+
+          <div class="calc-box">
+            <div class="calc-label">Target Sem 3 SGPA (28 Cr)</div>
+            <input type="number" step="0.01" class="calc-input" id="calcSem3" value="8.71" oninput="calculateLiveCgpa()">
+          </div>
+
+          <div class="calc-box">
+            <div class="calc-label">Target Sem 4 SGPA (32 Cr)</div>
+            <input type="number" step="0.01" class="calc-input" id="calcSem4" value="9.50" oninput="calculateLiveCgpa()">
+          </div>
+        </div>
+
+        <div class="calc-results-card">
+          <div style="font-size: 0.74rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">
+            Projected Final Degree CGPA
+          </div>
+          <div class="res-cgpa" id="calcResultCgpa">8.17</div>
+          <div style="font-weight: 600; font-size: 0.88rem; color: var(--text-main);" id="calcResultPercent">
+            ~76.3% Aggregate Marks
+          </div>
+          <div style="margin-top: 8px;">
+            <span class="tag-pill" id="calcResultBadge" style="background: var(--accent-primary); color: white; padding: 4px 12px; font-size: 0.78rem;">
+              🏆 First Class with Distinction
+            </span>
+          </div>
+        </div>
+
+        <div style="margin-top: 14px; font-size: 0.74rem; color: var(--text-muted); text-align: center;">
+          Created for <strong>Arpit Manoj Bangre</strong> • Total Degree: <strong>120 Credits</strong> • Distinction: <strong>8.00+ CGPA</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script src="content_data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

@@ -916,6 +916,7 @@ window.openOverview = async function(docType) {
   else if (docType === 'overview') doc = MCA_DATA.overviewDocument;
   else if (docType === 'pyq_vault') doc = MCA_DATA.pyqVaultDocument;
   else if (docType === 'heatmap') doc = MCA_DATA.heatmapDocument;
+  else if (docType === 'imp_plan') doc = MCA_DATA.impPlanDocument;
   else doc = MCA_DATA.overviewDocument;
 
   AppState.currentSubjectId = doc.id;

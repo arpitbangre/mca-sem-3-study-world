@@ -64,6 +64,7 @@ Full cross-indexing by subject, by examination session, and recurrence analytics
 - **[Summer 2025 Complete Exam Set](pyq/by_session/Summer_2025/MCA_Sem_3_Summer_2025_All_Papers.md)** (3T1, 3T2, 3T3, 3T4, 3T5)
 
 ### C. Predictive Trends & Exam Analytics
+- **[🎯 Master High-Yield IMP Questions Plan (80/80)](pyq/analytics/MOST_IMPORTANT_QUESTIONS_PLAN.md)**
 - **[🔥 High-Probability Recurring Questions Heatmap](pyq/analytics/REPEATED_QUESTIONS_HEATMAP.md)**
 
 ### D. Source Physical Scans

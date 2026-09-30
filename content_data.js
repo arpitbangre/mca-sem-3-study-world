@@ -221,5 +221,12 @@ const MCA_DATA = {
     title: "High-Probability Repeating Questions Heatmap",
     icon: "🔥",
     path: "pyq/analytics/REPEATED_QUESTIONS_HEATMAP.md"
+  },
+
+  impPlanDocument: {
+    id: "imp_plan",
+    title: "Master High-Yield IMP Questions Plan (80/80)",
+    icon: "🎯",
+    path: "pyq/analytics/MOST_IMPORTANT_QUESTIONS_PLAN.md"
   }
 };

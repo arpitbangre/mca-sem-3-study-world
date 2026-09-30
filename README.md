@@ -12,6 +12,24 @@
 
 **Study World** is a modern, high-performance, distraction-free digital notes & academic hub designed for MCA Semester III students. It provides a clean 3-pane workstation with live Markdown rendering, instant search, deep unit-level jumping, upcoming curated question banks, and an interactive CGPA target simulation engine.
 
+
+---
+
+## 📚 2-Page Super Important Exam Notes (112 Questions Fully Solved)
+
+> 🎯 **Target:** RTMNU MCA Semester 3 Exams (80/80 Marks Preparation)  
+> 📖 **Notes Directory:** [**Open Master Notes Hub ➔**](./notes/README.md)  
+> 📑 **Master Question Bank:** [**View 112 Super IMP Questions ➔**](./notes/SUPER_IMP_QUESTION_BANK.md)  
+> ✍️ **Standard:** Double-depth answers (~5.5KB - 8.5KB / 750-1,200 words each) with ASCII architecture diagrams, 6-parameter comparison tables, real-world analogies, code implementations, and RTMNU 8-mark scoring blueprints.
+
+| Subject | Questions | Notes Index | Question Bank |
+|---|---|---|---|
+| **Artificial Intelligence** (`3T4`) | 27 Questions | [Open AI Notes](./notes/Artificial%20Intelligence/INDEX.md) | [AI Questions](./notes/Artificial%20Intelligence/QUESTIONS.md) |
+| **Big Data Analytics** (`3T1`) | 24 Questions | [Open Big Data Notes](./notes/Big%20Data%20Analytics/INDEX.md) | [Big Data Questions](./notes/Big%20Data%20Analytics/QUESTIONS.md) |
+| **Data Mining** (`3T2`) | 18 Questions | [Open Data Mining Notes](./notes/Data%20Mining/INDEX.md) | [Data Mining Questions](./notes/Data%20Mining/QUESTIONS.md) |
+| **Python Programming** (`3T3`) | 22 Questions | [Open Python Notes](./notes/Python%20Programming/INDEX.md) | [Python Questions](./notes/Python%20Programming/QUESTIONS.md) |
+| **Soft Computing** (`3T5`) | 21 Questions | [Open Soft Computing Notes](./notes/Soft%20Computing/INDEX.md) | [Soft Computing Questions](./notes/Soft%20Computing/QUESTIONS.md) |
+
 ---
 
 ## ✨ Key Features

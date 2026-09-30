@@ -235,5 +235,12 @@ const MCA_DATA = {
     title: "Top 30 Question Bank Per Subject (150 Questions)",
     icon: "💎",
     path: "pyq/analytics/TOP_30_QUESTION_BANK_PER_SUBJECT.md"
+  },
+
+  superImpDocument: {
+    id: "super_imp",
+    title: "Ultimate Super IMP Question Bank (105 Questions)",
+    icon: "⚡",
+    path: "pyq/analytics/ULTIMATE_SUPER_IMP_QUESTION_BANK.md"
   }
 };

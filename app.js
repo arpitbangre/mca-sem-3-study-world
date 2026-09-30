@@ -918,6 +918,7 @@ window.openOverview = async function(docType) {
   else if (docType === 'heatmap') doc = MCA_DATA.heatmapDocument;
   else if (docType === 'imp_plan') doc = MCA_DATA.impPlanDocument;
   else if (docType === 'top30') doc = MCA_DATA.top30Document;
+  else if (docType === 'super_imp') doc = MCA_DATA.superImpDocument;
   else doc = MCA_DATA.overviewDocument;
 
   AppState.currentSubjectId = doc.id;

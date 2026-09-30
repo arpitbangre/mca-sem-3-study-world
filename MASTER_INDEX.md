@@ -64,6 +64,12 @@ Full cross-indexing by subject, by examination session, and recurrence analytics
 - **[Summer 2025 Complete Exam Set](pyq/by_session/Summer_2025/MCA_Sem_3_Summer_2025_All_Papers.md)** (3T1, 3T2, 3T3, 3T4, 3T5)
 
 ### C. Predictive Trends & Exam Analytics
+- **[⚡ Ultimate Super IMP Question Bank (105 Questions)](pyq/analytics/ULTIMATE_SUPER_IMP_QUESTION_BANK.md)**
+  - [3T1 Super IMP Bank (22 Qs)](pyq/3T1_Big_Data_Analytics/3T1_SUPER_IMP_QUESTIONS.md)
+  - [3T2 Super IMP Bank (18 Qs)](pyq/3T2_Data_Mining/3T2_SUPER_IMP_QUESTIONS.md)
+  - [3T3 Super IMP Bank (20 Qs)](pyq/3T3_Python_Programming/3T3_SUPER_IMP_QUESTIONS.md)
+  - [3T4 Super IMP Bank (24 Qs)](pyq/3T4_Artificial_Intelligence/3T4_SUPER_IMP_QUESTIONS.md)
+  - [3T5 Super IMP Bank (21 Qs)](pyq/3T5_Soft_Computing/3T5_SUPER_IMP_QUESTIONS.md)
 - **[💎 Top 30 Question Bank Per Subject (150 Questions)](pyq/analytics/TOP_30_QUESTION_BANK_PER_SUBJECT.md)**
 - **[🎯 Master High-Yield IMP Questions Plan (80/80)](pyq/analytics/MOST_IMPORTANT_QUESTIONS_PLAN.md)**
 - **[🔥 High-Probability Recurring Questions Heatmap](pyq/analytics/REPEATED_QUESTIONS_HEATMAP.md)**

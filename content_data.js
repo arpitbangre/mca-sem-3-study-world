@@ -228,5 +228,12 @@ const MCA_DATA = {
     title: "Master High-Yield IMP Questions Plan (80/80)",
     icon: "🎯",
     path: "pyq/analytics/MOST_IMPORTANT_QUESTIONS_PLAN.md"
+  },
+
+  top30Document: {
+    id: "top30",
+    title: "Top 30 Question Bank Per Subject (150 Questions)",
+    icon: "💎",
+    path: "pyq/analytics/TOP_30_QUESTION_BANK_PER_SUBJECT.md"
   }
 };

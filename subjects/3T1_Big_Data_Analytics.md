@@ -128,3 +128,14 @@
 
 ## 🧪 Practical Lab Connection (3P1)
 - Hands-on implementation in **R**: Matrix/Dataframe operations, statistical calculations, data visualization plots, importing CSV datasets, and building basic Hadoop MapReduce pipelines.
+
+
+---
+
+## 🏛️ Official University Previous Year Questions (RTMNU PYQs)
+
+> **100% Verified University Papers (Winter 2023 – Summer 2025)**  
+> Complete question papers, unit-wise question banks, and original scan sheets are available in the [PYQ Repository](../pyq/3T1_Big_Data_Analytics/3T1_Big_Data_Analytics_PYQ_Master.md).
+
+### 📑 Available Papers for this Subject:
+- [3T1 Summer 2025](../pyq/3T1_Big_Data_Analytics/3T1_Summer_2025.md)\n- [3T1 Winter 2023](../pyq/3T1_Big_Data_Analytics/3T1_Winter_2023.md)\n\n👉 **[Open Complete 3T1_Big_Data_Analytics PYQ Master Bank & Unit Mapping](../pyq/3T1_Big_Data_Analytics/3T1_Big_Data_Analytics_PYQ_Master.md)**\n

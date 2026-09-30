@@ -91,6 +91,22 @@
             </div>
             <span class="nav-badge">28 Cr</span>
           </div>
+
+          <div class="nav-item" onclick="openOverview('pyq_vault')">
+            <div class="nav-item-left">
+              <span class="icon">📑</span>
+              <span class="nav-title">PYQ Vault</span>
+            </div>
+            <span class="nav-badge" style="background:var(--accent-primary); color:white;">13 Sets</span>
+          </div>
+
+          <div class="nav-item" onclick="openOverview('heatmap')">
+            <div class="nav-item-left">
+              <span class="icon">🔥</span>
+              <span class="nav-title">Exam Heatmap</span>
+            </div>
+            <span class="nav-badge">Trends</span>
+          </div>
         </div>
 
         <!-- Section: Semester Subjects -->
@@ -294,9 +310,54 @@
     </div>
   </div>
 
+  <!-- ============================================================
+       HIGH-RESOLUTION SCAN VIEWER MODAL (LIGHTBOX)
+  ============================================================ -->
+  <div class="modal-backdrop" id="scanModal">
+    <div class="modal-dialog scan-dialog">
+      <div class="modal-header">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.4rem;">📄</span>
+          <div>
+            <h3 class="modal-title" id="scanModalTitle" style="font-size:1.05rem; margin:0;">Question Paper Scan</h3>
+            <div class="scan-subtitle" id="scanModalSubtitle" style="font-size:0.75rem; color:var(--text-muted);">RTMNU Official Examination Sheet</div>
+          </div>
+        </div>
+        
+        <div class="scan-header-actions" style="display:flex; align-items:center; gap:8px;">
+          <button class="tool-btn" onclick="zoomScan(-0.2)" title="Zoom Out (-)">🔍-</button>
+          <span id="scanZoomLevel" style="font-size:0.75rem; font-weight:700; color:var(--text-muted); min-width:42px; text-align:center;">100%</span>
+          <button class="tool-btn" onclick="zoomScan(0.2)" title="Zoom In (+)">🔍+</button>
+          <button class="tool-btn" onclick="resetScanZoom()" title="Reset Zoom">Reset</button>
+          <a id="scanModalDownloadBtn" href="#" target="_blank" download class="tool-btn primary" title="Open Full Resolution Scan in New Tab">
+            <span>↗</span> Open Scan
+          </a>
+          <button class="modal-close-btn" onclick="closeScanModal()" title="Close (Esc)">✕</button>
+        </div>
+      </div>
+      
+      <div class="modal-body scan-body" id="scanModalBody">
+        <div class="scan-image-viewport" id="scanImageViewport">
+          <img id="scanModalImg" src="" alt="RTMNU Official Paper Scan" class="scan-full-image" />
+        </div>
+      </div>
+
+      <div class="modal-footer scan-footer">
+        <div id="scanPageIndicator" style="font-size:0.82rem; color:var(--text-muted); font-weight:600;">
+          Page 1 of 2
+        </div>
+        <div style="display:flex; gap:8px;">
+          <button class="tool-btn" id="scanPrevBtn" onclick="prevScanPage()">← Previous Page</button>
+          <button class="tool-btn" id="scanNextBtn" onclick="nextScanPage()">Next Page →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
   <script src="content_data.js"></script>
+  <script src="pyq_data.js"></script>
   <script src="app.js"></script>
 
 </body>

@@ -119,3 +119,14 @@
 
 ## 🧪 Practical Lab Connection (3P2)
 - Hands-on implementation in Python: Water Jug Problem, 8-Puzzle solver, DFS/BFS graph traversals, A* Algorithm and AO* Algorithm pathfinding, Minimax with Alpha-Beta pruning, and Resolution logic.
+
+
+---
+
+## 🏛️ Official University Previous Year Questions (RTMNU PYQs)
+
+> **100% Verified University Papers (Winter 2023 – Summer 2025)**  
+> Complete question papers, unit-wise question banks, and original scan sheets are available in the [PYQ Repository](../pyq/3T4_Artificial_Intelligence/3T4_Artificial_Intelligence_PYQ_Master.md).
+
+### 📑 Available Papers for this Subject:
+- [3T4 Summer 2025](../pyq/3T4_Artificial_Intelligence/3T4_Summer_2025.md)\n- [3T4 Winter 2023](../pyq/3T4_Artificial_Intelligence/3T4_Winter_2023.md)\n- [3T4 Winter 2024](../pyq/3T4_Artificial_Intelligence/3T4_Winter_2024.md)\n\n👉 **[Open Complete 3T4_Artificial_Intelligence PYQ Master Bank & Unit Mapping](../pyq/3T4_Artificial_Intelligence/3T4_Artificial_Intelligence_PYQ_Master.md)**\n

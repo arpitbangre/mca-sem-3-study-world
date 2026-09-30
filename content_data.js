@@ -207,5 +207,19 @@ const MCA_DATA = {
     title: "Arpit's Scorecard & Degree Goal",
     icon: "🏆",
     path: "MCA_ACADEMIC_PERFORMANCE_AND_ROADMAP.md"
+  },
+
+  pyqVaultDocument: {
+    id: "pyq_vault",
+    title: "RTMNU Official PYQ Vault (13 Papers)",
+    icon: "📑",
+    path: "pyq/README.md"
+  },
+
+  heatmapDocument: {
+    id: "heatmap",
+    title: "High-Probability Repeating Questions Heatmap",
+    icon: "🔥",
+    path: "pyq/analytics/REPEATED_QUESTIONS_HEATMAP.md"
   }
 };

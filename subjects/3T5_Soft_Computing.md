@@ -126,3 +126,14 @@
 
 ## 🧪 Practical Lab Connection (3P2)
 - Hands-on implementation in Python: McCulloch-Pitts neuron, Single layer perceptron learning, Backpropagation MLP network, Hopfield memory, Fuzzy set operations, and Defuzzification algorithms.
+
+
+---
+
+## 🏛️ Official University Previous Year Questions (RTMNU PYQs)
+
+> **100% Verified University Papers (Winter 2023 – Summer 2025)**  
+> Complete question papers, unit-wise question banks, and original scan sheets are available in the [PYQ Repository](../pyq/3T5_Soft_Computing/3T5_Soft_Computing_PYQ_Master.md).
+
+### 📑 Available Papers for this Subject:
+- [3T5 Summer 2025](../pyq/3T5_Soft_Computing/3T5_Summer_2025.md)\n- [3T5 Winter 2023](../pyq/3T5_Soft_Computing/3T5_Winter_2023.md)\n- [3T5 Winter 2024](../pyq/3T5_Soft_Computing/3T5_Winter_2024.md)\n\n👉 **[Open Complete 3T5_Soft_Computing PYQ Master Bank & Unit Mapping](../pyq/3T5_Soft_Computing/3T5_Soft_Computing_PYQ_Master.md)**\n

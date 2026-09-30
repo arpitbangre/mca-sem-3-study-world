@@ -110,3 +110,14 @@
 
 ## 🧪 Practical Lab Connection (3P1)
 - Hands-on implementation in Python/R: Data cleaning, normalization, Apriori association mining, Decision Tree classifier, and K-Means clustering algorithms.
+
+
+---
+
+## 🏛️ Official University Previous Year Questions (RTMNU PYQs)
+
+> **100% Verified University Papers (Winter 2023 – Summer 2025)**  
+> Complete question papers, unit-wise question banks, and original scan sheets are available in the [PYQ Repository](../pyq/3T2_Data_Mining/3T2_Data_Mining_PYQ_Master.md).
+
+### 📑 Available Papers for this Subject:
+- [3T2 Summer 2025](../pyq/3T2_Data_Mining/3T2_Summer_2025.md)\n- [3T2 Winter 2024](../pyq/3T2_Data_Mining/3T2_Winter_2024.md)\n\n👉 **[Open Complete 3T2_Data_Mining PYQ Master Bank & Unit Mapping](../pyq/3T2_Data_Mining/3T2_Data_Mining_PYQ_Master.md)**\n

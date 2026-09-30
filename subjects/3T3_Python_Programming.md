@@ -120,3 +120,14 @@
 
 ## 🧪 Practical Lab Connection (3P1)
 - Programming in Python for data structures, OOP design, OS/file operations, socket communication, database connectivity, and web CGI scripts.
+
+
+---
+
+## 🏛️ Official University Previous Year Questions (RTMNU PYQs)
+
+> **100% Verified University Papers (Winter 2023 – Summer 2025)**  
+> Complete question papers, unit-wise question banks, and original scan sheets are available in the [PYQ Repository](../pyq/3T3_Python_Programming/3T3_Python_Programming_PYQ_Master.md).
+
+### 📑 Available Papers for this Subject:
+- [3T3 Summer 2025](../pyq/3T3_Python_Programming/3T3_Summer_2025.md)\n- [3T3 Winter 2023](../pyq/3T3_Python_Programming/3T3_Winter_2023.md)\n- [3T3 Winter 2024](../pyq/3T3_Python_Programming/3T3_Winter_2024.md)\n\n👉 **[Open Complete 3T3_Python_Programming PYQ Master Bank & Unit Mapping](../pyq/3T3_Python_Programming/3T3_Python_Programming_PYQ_Master.md)**\n

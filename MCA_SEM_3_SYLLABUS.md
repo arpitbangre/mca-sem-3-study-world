@@ -172,3 +172,18 @@
 * **Contents**:
   * 🤖 **AI Programs**: State space search (Water jug, 8-puzzle, Tic-tac-toe), BFS/DFS, A* and AO* search implementation, Minimax game tree with Alpha-Beta pruning.
   * 🧠 **Soft Computing Programs**: Perceptron learning implementation, Backpropagation algorithm, Hopfield associative memory, Fuzzy set operations, Fuzzification and Defuzzification routines.
+
+
+---
+
+## 🏛️ Official University Previous Year Question (PYQ) Bank (Winter 2023 – Summer 2025)
+
+All official RTMNU examination papers have been unzipped, scanned, parsed, and mapped into our dedicated repository at [pyq/](pyq/README.md).
+
+| Subject Code | Subject Name | Type | Exam Sessions Available | Master Question Bank |
+|:---|:---|:---:|:---|:---:|
+| **3T1** | Big Data Analytics | Core Theory | Winter 2023, Summer 2025 | [3T1 Master Bank](pyq/3T1_Big_Data_Analytics/3T1_Big_Data_Analytics_PYQ_Master.md) |
+| **3T2** | Data Mining | Core Theory | Winter 2024, Summer 2025 | [3T2 Master Bank](pyq/3T2_Data_Mining/3T2_Data_Mining_PYQ_Master.md) |
+| **3T3** | Python Programming | Core Theory | Winter 2023, Winter 2024, Summer 2025 | [3T3 Master Bank](pyq/3T3_Python_Programming/3T3_Python_Programming_PYQ_Master.md) |
+| **3T4** | Artificial Intelligence | Elective-II | Winter 2023, Winter 2024, Summer 2025 | [3T4 Master Bank](pyq/3T4_Artificial_Intelligence/3T4_Artificial_Intelligence_PYQ_Master.md) |
+| **3T5** | Soft Computing | Core Theory | Winter 2023, Winter 2024, Summer 2025 | [3T5 Master Bank](pyq/3T5_Soft_Computing/3T5_Soft_Computing_PYQ_Master.md) |

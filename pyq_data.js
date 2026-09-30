@@ -1,0 +1,1952 @@
+window.MCA_PYQ_DATA = {
+  "3T1_Big_Data_Analytics": {
+    "title": "3T1: Big Data Analytics",
+    "code": "3T1",
+    "papers": [
+      {
+        "session": "Winter 2023",
+        "code": "PSM/KW/23/2018",
+        "exam": "Master in Computer Application (M.C.A ) (Semester-III) (CBCS) Examination",
+        "paper_title": "3T1 : BIG DATA ANALYTICS (Paper-1)",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "10.jpg",
+            "3T1_Winter_2023_P1.jpg"
+          ],
+          [
+            "11.jpg",
+            "3T1_Winter_2023_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "(a)",
+                "What is Big data ? Explain types of Big data.",
+                8
+              ],
+              [
+                "(b)",
+                "What is distributed computing ? Explain the working of distributed computer environment.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(c)",
+                "Write short notes on :\n  (i) HDFS\n  (ii) MapReduce",
+                8
+              ],
+              [
+                "(d)",
+                "Explain different Components of Hadoop ecosystem.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "(a)",
+                "Explain the role of visualization layer.",
+                8
+              ],
+              [
+                "(b)",
+                "Write short notes on :\n  (i) Server Virtualization\n  (ii) Application Virtualization",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(c)",
+                "Explain Big Data Analysis and Data Warehouse.",
+                8
+              ],
+              [
+                "(d)",
+                "What is RDBMS ? Explain issues with non-relational model.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "(a)",
+                "Explain the working of scan ( ) command in R.",
+                8
+              ],
+              [
+                "(b)",
+                "Write notes on :\n  (i) Using Merge ( ) function\n  (ii) Using rbind ( ) function",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(c)",
+                "Write a note on :\n  (i) Statistical features\n  (ii) Programming features",
+                8
+              ],
+              [
+                "(d)",
+                "Explain built-in function of R in detail.",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "(a)",
+                "Explain the tools used in data visualization.",
+                8
+              ],
+              [
+                "(b)",
+                "Describe the key elements of Social Media.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(c)",
+                "What is text mining ? Explain understanding text mining process.",
+                8
+              ],
+              [
+                "(d)",
+                "Explain challenges of Mobile analytics.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "(a)",
+                "List the important features of Hadoop.",
+                4
+              ],
+              [
+                "(b)",
+                "List the components of Big data architecture.",
+                4
+              ],
+              [
+                "(c)",
+                "Explain advance features in R.",
+                4
+              ],
+              [
+                "(d)",
+                "Explain the applications of data visualization.",
+                4
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "session": "Summer 2025",
+        "code": "KRS/KS/25/1790",
+        "exam": "M.C.A. Second Year Third Semester (New CBCS) Examination",
+        "paper_title": "3T1 Paper-I - Big Data Analytics",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "07.jpg",
+            "3T1_Summer_2025_P1.jpg"
+          ],
+          [
+            "08.jpg",
+            "3T1_Summer_2025_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "a)",
+                "What is Big Data? Explain different types and characteristics of big data.",
+                8
+              ],
+              [
+                "b)",
+                "What is distributed computing? Explain the working of distributed computing environment.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain different component of Hadoop ecosystem.",
+                8
+              ],
+              [
+                "d)",
+                "Write a short notes on-\n  i) HDFS\n  ii) MapReduce",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "a)",
+                "Write a short notes on-\n  i) Server Virtualization\n  ii) Application Virtualization",
+                8
+              ],
+              [
+                "b)",
+                "Differentiate between relational database system and big data solutions.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain the terms-\n  i) Physical infrastructure layer\n  ii) Platform Management layer",
+                8
+              ],
+              [
+                "d)",
+                "What are the three properties of the CAP Theorem? Describe each briefly.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "a)",
+                "Explain the working of scan( ) command in R.",
+                8
+              ],
+              [
+                "b)",
+                "Explain the terms:\n  i) Sorting data\n  ii) Ordering data",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What are packages? Write down the steps to install packages in R.",
+                8
+              ],
+              [
+                "d)",
+                "What are basic plotting function in R? And how do you create Scatter plots, histograms and bar charts?",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "a)",
+                "What is data visualization? Explain the tools used in data visualization.",
+                8
+              ],
+              [
+                "b)",
+                "Write a short notes on-\n  i) Sentiment analysis\n  ii) Social media",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is mobile analytics? Discuss some field where mobile analytics can be used.",
+                8
+              ],
+              [
+                "d)",
+                "What are the main types of Data Visualizations? And when are they used? Explain.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "a)",
+                "What is Big Data Analytics? Explain it's types.",
+                4
+              ],
+              [
+                "b)",
+                "What is a non-relational database? Explain.",
+                4
+              ],
+              [
+                "c)",
+                "Explain advance features in R.",
+                4
+              ],
+              [
+                "d)",
+                "What techniques are used to analyze text data? Explain.",
+                4
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "3T2_Data_Mining": {
+    "title": "3T2: Data Mining",
+    "code": "3T2",
+    "papers": [
+      {
+        "session": "Winter 2024",
+        "code": "SKR/KW/24/1791",
+        "exam": "M.C.A. Third Semester (New) Examination",
+        "paper_title": "3T2 Paper-II - Data Mining",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "12.jpg",
+            "3T2_Winter_2024_P1.jpg"
+          ],
+          [
+            "13.jpg",
+            "3T2_Winter_2024_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "a)",
+                "What is Data Mining? Explain the origin of Data Mining.",
+                8
+              ],
+              [
+                "b)",
+                "Write a note on:\n  i) Feature creation\n  ii) Feature subset selection",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What are motivating challenges in Data Mining?",
+                8
+              ],
+              [
+                "d)",
+                "Write short note on:\n  i) Types of Dataset\n  ii) Data Mining Tasks.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "a)",
+                "Explain Decision Tree induction with suitable example.",
+                8
+              ],
+              [
+                "b)",
+                "Explain the terms:\n  i) Measures of location\n  ii) Measures of spread",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is visualization? Explain different visualization techniques in data mining.",
+                8
+              ],
+              [
+                "d)",
+                "What is OLAP? Explain multidimensional analysis in detail.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "a)",
+                "What is classification? Explain any two classification techniques in detail.",
+                8
+              ],
+              [
+                "b)",
+                "Explain Apriori Algorihtm in detail.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain FP Growth Algorithm with suitable example.",
+                8
+              ],
+              [
+                "d)",
+                "Explain the terms:\n  i) Support vector machine\n  ii) Na\u00efve Bayes classifier",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "a)",
+                "Explain different causes of Anomaly detection. Explain the proximity based outlier detection.",
+                8
+              ],
+              [
+                "b)",
+                "Explain density based clustering in detail.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is cluster Analysis? Write different types of clustering in detail.",
+                8
+              ],
+              [
+                "d)",
+                "Explain the different clustering Algorithms. Explain k-means clustering in detail.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "a)",
+                "What is Data Quality? Explain data collection issues.",
+                4
+              ],
+              [
+                "b)",
+                "Explain evaluating the performance of a classifier in Data Mining.",
+                4
+              ],
+              [
+                "c)",
+                "Write a note on Bayesian classifier.",
+                4
+              ],
+              [
+                "d)",
+                "Explain graph based clustering with a suitable example.",
+                4
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "session": "Summer 2025",
+        "code": "KRS/KS/25/1791",
+        "exam": "M.C.A. Second Year Third Semester (New CBCS) Examination",
+        "paper_title": "3T2 Paper-II - Data Mining",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "14.jpg",
+            "3T2_Summer_2025_P1.jpg"
+          ],
+          [
+            "15.jpg",
+            "3T2_Summer_2025_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "a)",
+                "What is Data Mining? Explain the Data Mining Tasks.",
+                8
+              ],
+              [
+                "b)",
+                "Explain-\n  i) Variable Transformation\n  ii) Discretization and Binarization",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain the issues related to Applications.",
+                8
+              ],
+              [
+                "d)",
+                "Explain-\n  i) Attributes and Measurement\n  ii) Types of data sets.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "a)",
+                "Explain the concept of Iris Data Set.",
+                8
+              ],
+              [
+                "b)",
+                "Write a note on Multidimensional data Analysis.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain \u2013\n  i) Percentiles\n  ii) Mean and Median",
+                8
+              ],
+              [
+                "d)",
+                "Explain the concept of Decision Tree Induction.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "a)",
+                "Explain the concept of Bayesian classifiers in detail.",
+                8
+              ],
+              [
+                "b)",
+                "Explain \u2013\n  i) Support Vector Machine\n  ii) Na\u00efve Bayes classifier.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Write a note on-\n  i) Apriori Principle\n  ii) Rule Generation",
+                8
+              ],
+              [
+                "d)",
+                "What is FP \u2013 Tree Representation? Explain in detail.",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "a)",
+                "Explain the concept of K-means and it\u2019s variant.",
+                8
+              ],
+              [
+                "b)",
+                "Explain \u2013\n  i) Causes of Anomaly Detection.\n  ii) Approaches to Anomaly Detection.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is cluster Analysis? Explain different types of clustering.",
+                8
+              ],
+              [
+                "d)",
+                "Explain Proximity \u2013 Based outlier Detection concept.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "a)",
+                "Explain Feature subset selection.",
+                4
+              ],
+              [
+                "b)",
+                "Explain the concept of Box Plots.",
+                4
+              ],
+              [
+                "c)",
+                "What do you mean by support counting? Explain in brief.",
+                4
+              ],
+              [
+                "d)",
+                "Explain Jarvis Patrik Clustering.",
+                4
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "3T3_Python_Programming": {
+    "title": "3T3: Python Programming",
+    "code": "3T3",
+    "papers": [
+      {
+        "session": "Winter 2023",
+        "code": "PSM/KW/23/2020",
+        "exam": "Master in Computer Application (MCA) (Second Year) Semester\u2013III (CBCS) Examination",
+        "paper_title": "3T3 PYTHON PROGRAMMING (Paper\u20133)",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "24.jpg",
+            "3T3_Winter_2023_P1.jpg"
+          ],
+          [
+            "25.jpg",
+            "3T3_Winter_2023_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "(a)",
+                "Write short notes on :\n  (i) Argument tuples\n  (ii) Argument dictionaries",
+                8
+              ],
+              [
+                "(b)",
+                "Explain Exception Handling in detail.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(c)",
+                "Explain different types of import statement in Python.",
+                8
+              ],
+              [
+                "(d)",
+                "Write short notes on :\n  (i) LGB Rule\n  (ii) Scope traps",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "(a)",
+                "Write notes on :\n  (i) Manipulating numbers\n  (ii) Text manipulation",
+                8
+              ],
+              [
+                "(b)",
+                "Explain working with operating system (OS modules).",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(c)",
+                "Explain built-in function in detail.",
+                8
+              ],
+              [
+                "(d)",
+                "Explain SY module in detail.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "(a)",
+                "Explain File processing in detail.",
+                8
+              ],
+              [
+                "(b)",
+                "Explain working with SMTP and FTP in client module.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(c)",
+                "Explain the term socket server.",
+                8
+              ],
+              [
+                "(d)",
+                "Write notes on Python standard library.",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "(a)",
+                "Write short notes on :\n  (i) Cookies\n  (ii) URL",
+                8
+              ],
+              [
+                "(b)",
+                "Explain the Zope system in Python",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(c)",
+                "Explain the term Processing SGML and Processing XML",
+                8
+              ],
+              [
+                "(d)",
+                "Write notes on :\n  (i) Byte code disassembly\n  (ii) Byte code instructions.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "(a)",
+                "Explain the concept of default argument in Python.",
+                4
+              ],
+              [
+                "(b)",
+                "Explain Unicode string in detail.",
+                4
+              ],
+              [
+                "(c)",
+                "Write a note on File control",
+                4
+              ],
+              [
+                "(d)",
+                "How Jython system works ?",
+                4
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "session": "Winter 2024",
+        "code": "SKR/KW/24/1792",
+        "exam": "M.C.A. Second Year Third Semester (New) Examination",
+        "paper_title": "3T3 Paper-III - Python Programming",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "26.jpg",
+            "3T3_Winter_2024_P1.jpg"
+          ],
+          [
+            "27.jpg",
+            "3T3_Winter_2024_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "a)",
+                "What are lists and types? Explain the difference between them.",
+                8
+              ],
+              [
+                "b)",
+                "What are the common built-in data types in Python?",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is dictionary? Explain Python dictionaries in detail discussing their operations and methods.",
+                8
+              ],
+              [
+                "d)",
+                "Explain in detail various control statement used in Python.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "a)",
+                "Write a program to enter a number in Python and print its octal and hexadecimal equivalent.",
+                8
+              ],
+              [
+                "b)",
+                "Explain any five built-in functions in Python.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain in detail multithreading in Python.",
+                8
+              ],
+              [
+                "d)",
+                "Write note on Unicode strings.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "a)",
+                "Explain File Processing in detail.",
+                8
+              ],
+              [
+                "b)",
+                "Write note on controlling file I/O.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain in detail setting file permission and manipulating file paths.",
+                8
+              ],
+              [
+                "d)",
+                "Write a note on:\n  i) Audio modules\n  ii) Graphic modules",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "a)",
+                "Write a note on Security.",
+                8
+              ],
+              [
+                "b)",
+                "Write a note on processing XML in Python.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain in detail Python execution structure.",
+                8
+              ],
+              [
+                "d)",
+                "Explain Namespaces, Code Blocks and Frames.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "a)",
+                "What is an exception? Explain with example.",
+                4
+              ],
+              [
+                "b)",
+                "Write a note on text manipulation.",
+                4
+              ],
+              [
+                "c)",
+                "Write note on Handling Internet Data.",
+                4
+              ],
+              [
+                "d)",
+                "Explain Cookies in detail.",
+                4
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "session": "Summer 2025",
+        "code": "KRS/KS/25/1792",
+        "exam": "M.C.A. Second Year Third Semester (New CBCS) Examination",
+        "paper_title": "3T3 Paper-III - Python Programming",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "28.jpg",
+            "3T3_Summer_2025_P1.jpg"
+          ],
+          [
+            "29.jpg",
+            "3T3_Summer_2025_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "a)",
+                "Explain Exception handling in detail with examples.",
+                8
+              ],
+              [
+                "b)",
+                "Write a short notes on-\n  i) Argument tuples\n  ii) Argument dictionaries",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What are the basic list operation that can be performed in python. Explain it\u2019s operation with it\u2019s syntax.",
+                8
+              ],
+              [
+                "d)",
+                "What is dictionary? Explain Python dictionary in detail.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "a)",
+                "Explain built in function in Python.",
+                8
+              ],
+              [
+                "b)",
+                "Explain working with the system (Sy module) in detail.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Write a notes on-\n  i) Manipulating numbers\n  ii) Text manipulation",
+                8
+              ],
+              [
+                "d)",
+                "Explain how Python\u2019s time module can be used to manipulate time related information. How do functions like time.sleep( ) and time.time( ) work.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "a)",
+                "Discuss file processing in Python. How can files be read from and written to in Python? Explain different modes of file handling.",
+                8
+              ],
+              [
+                "b)",
+                "Write a short notes on-\n  i) File control\n  ii) File locking",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain working with SMTP and FTP in client module.",
+                8
+              ],
+              [
+                "d)",
+                "Discuss how Python can be used for multimedia processing, specifically for handling audio and graphics.",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "a)",
+                "Write a short notes on-\n  i) Cookies\n  ii) Python server pages",
+                8
+              ],
+              [
+                "b)",
+                "Explain processing SGML and processing XML in detail.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is Python bytecode? Discuss the process of compiling Python code into bytecode and how it is executed by python interpreter.",
+                8
+              ],
+              [
+                "d)",
+                "What is Uniform Resource Locator (URL)? Explain it\u2019s structure and how it is used to access resource on the web.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "a)",
+                "Write a short note on LGB rule.",
+                4
+              ],
+              [
+                "b)",
+                "What is thread? Explain thread control and object locking.",
+                4
+              ],
+              [
+                "c)",
+                "Explain the term Python standard library.",
+                4
+              ],
+              [
+                "d)",
+                "Write a note on socket server.",
+                4
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "3T4_Artificial_Intelligence": {
+    "title": "3T4: Artificial Intelligence (Elective-II Core)",
+    "code": "3T4",
+    "papers": [
+      {
+        "session": "Winter 2023",
+        "code": "PSM/KW/23/2021",
+        "exam": "Master in Computer Application (M.C.A.) Second Year (Semester-III) (CBCS) Examination",
+        "paper_title": "3T4 CE2-1 : ARTIFICIAL INTELLIGENCE (Paper-4 Elective-II)",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "01.jpg",
+            "3T4_Winter_2023_P1.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "(A)",
+                "Write and explain Generate- and -Test algorithm.",
+                8
+              ],
+              [
+                "(B)",
+                "What are production systems ? Explain Missionaries and Cannibals example.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(C)",
+                "What is an AI technique ? Explain Tic-Tac-Toe.",
+                8
+              ],
+              [
+                "(D)",
+                "Write and explain AO* Algorithm.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "(A)",
+                "What is knowledge representation ? Explain the role of knowledge representation in artificial intelligence.",
+                8
+              ],
+              [
+                "(B)",
+                "Describe first order predicate logic with example.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(C)",
+                "Explain forward versus backward reasoning.",
+                8
+              ],
+              [
+                "(D)",
+                "Write a note on representing instance and ISA relationship.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "(A)",
+                "What is planning ? Explain components of a planning system.",
+                8
+              ],
+              [
+                "(B)",
+                "Write a note on nonlinear planning.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(C)",
+                "Explain alpha-beta cutoffs in game playing.",
+                8
+              ],
+              [
+                "(D)",
+                "Explain Hierarchical planning with example.",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "(A)",
+                "Discuss understanding as a constraint satisfaction.",
+                8
+              ],
+              [
+                "(B)",
+                "Write a note on parallel and distributed AI.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(C)",
+                "Explain syntactic processing with suitable example.",
+                8
+              ],
+              [
+                "(D)",
+                "Describe reasoning systems.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "(A)",
+                "Discuss water-jug problem",
+                4
+              ],
+              [
+                "(B)",
+                "Write a short note on propositional logic.",
+                4
+              ],
+              [
+                "(C)",
+                "Describe the goal stack planning.",
+                4
+              ],
+              [
+                "(D)",
+                "Explain in brief semantic analysis",
+                4
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "session": "Winter 2024",
+        "code": "SKR/KW/24/1793",
+        "exam": "M.C.A. Second Year Third Semester (New) Examination",
+        "paper_title": "3T4 CE2-1 Elective-II Core Paper-IV - Artificial Intelligence",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "02.jpg",
+            "3T4_Winter_2024_P1.jpg"
+          ],
+          [
+            "03.jpg",
+            "3T4_Winter_2024_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "a)",
+                "Discuss the AI problem. List the different AI techniques used to solve it.",
+                8
+              ],
+              [
+                "b)",
+                "Describe Hill climbing algorithm. What are its limitation?",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain means-ends-analysis with example.",
+                8
+              ],
+              [
+                "d)",
+                "Explain briefly various problem characteristics.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "a)",
+                "Differentiate between forward and backward reasoning.",
+                8
+              ],
+              [
+                "b)",
+                "Explain computable functions and predicates in detail.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Discuss various methods of knowledge representation in detail.",
+                8
+              ],
+              [
+                "d)",
+                "Explain the following:\n  i) Natural Deduction\n  ii) Logic Programing",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "a)",
+                "Discuss the components of planning system. Why it is needed?",
+                8
+              ],
+              [
+                "b)",
+                "What is goal stack planning? Give its features.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Elaborate MINIMAX search procedure in detail.",
+                8
+              ],
+              [
+                "d)",
+                "Explain alpha-beta cutoff's in game playing.",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "a)",
+                "Explain unification grammars and semantic analysis.",
+                8
+              ],
+              [
+                "b)",
+                "Differentiate between parallel and distributed AI.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain psychological modeling in detail.",
+                8
+              ],
+              [
+                "d)",
+                "What is Natural Language Processing? Give its features.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "a)",
+                "Explain Water Jug problem.",
+                4
+              ],
+              [
+                "b)",
+                "What is first order Logic? Explain.",
+                4
+              ],
+              [
+                "c)",
+                "Explain hierarchical planning with example.",
+                4
+              ],
+              [
+                "d)",
+                "Write a note on constraint satisfaction.",
+                4
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "session": "Summer 2025",
+        "code": "KRS/KS/25/1793",
+        "exam": "M.C.A. Second Year Third Semester (New CBCS) Examination",
+        "paper_title": "3T4 Elective-II Paper-IV CE2-1 - Artificial Intelligence",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "04.jpg",
+            "3T4_Summer_2025_P1.jpg"
+          ],
+          [
+            "05.jpg",
+            "3T4_Summer_2025_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "a)",
+                "Explain A* algorithm with suitable example.",
+                8
+              ],
+              [
+                "b)",
+                "What is AI? Explain water jug problem.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is constraint satisfaction? Explain its algorithm.",
+                8
+              ],
+              [
+                "d)",
+                "Describe Hill climbing algorithm. What are its limitations.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "a)",
+                "Explain issues of knowledge representation.",
+                8
+              ],
+              [
+                "b)",
+                "Write note on:\n  i) Natural Deduction.\n  ii) Logic programming.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Write and explain forward versus backward reasoning.",
+                8
+              ],
+              [
+                "d)",
+                "What is predicate logic? Explain resolution in predicate logic.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "a)",
+                "What are the components of planning system? Explain.",
+                8
+              ],
+              [
+                "b)",
+                "Explain Min-Max algorithm with an example.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Discuss the additional refinements to the minimax procedure.",
+                8
+              ],
+              [
+                "d)",
+                "Explain the followings.\n  i) Alpha beta cut off\n  ii) Goal task planning",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "a)",
+                "What is parallel AI? Explain Psychological modeling.",
+                8
+              ],
+              [
+                "b)",
+                "Explain Semantic analysis with example.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Write notes on:\n  i) Unification grammar\n  ii) Syntactic processing.",
+                8
+              ],
+              [
+                "d)",
+                "Explain distributed reasoning systems in details.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "a)",
+                "Explain problem as a state space search.",
+                4
+              ],
+              [
+                "b)",
+                "Explain the concept of resolution.",
+                4
+              ],
+              [
+                "c)",
+                "Write note on Hierarchical Planning.",
+                4
+              ],
+              [
+                "d)",
+                "Write note on natural language processing.",
+                4
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "3T5_Soft_Computing": {
+    "title": "3T5: Soft Computing (Core)",
+    "code": "3T5",
+    "papers": [
+      {
+        "session": "Winter 2023",
+        "code": "PSM/KW/23/2024",
+        "exam": "Second Year M.C.A. Semester\u2013III (Master in Computer Application) (CBCS) Examination",
+        "paper_title": "3T5 : SOFT COMPUTING (Paper\u20135 Core)",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "17.jpg",
+            "3T5_Winter_2023_P1.jpg"
+          ],
+          [
+            "18.jpg",
+            "3T5_Winter_2023_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "(A)",
+                "Define soft computing. Explain difference between soft-computing and hard-computing.",
+                8
+              ],
+              [
+                "(B)",
+                "Write notes on :\n  (i) Alpha-beta cutoff\n  (ii) Iterative deepening.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(C)",
+                "What is searching techniques ? Explain Best First Search (BFS) with example.",
+                8
+              ],
+              [
+                "(D)",
+                "Explain in detail AO* algorithm.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "(A)",
+                "What are the various applications of Neural Network ? Explain.",
+                8
+              ],
+              [
+                "(B)",
+                "What is perceptron ? Explain single layer and multilayer perception in detail.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(C)",
+                "What is the difference between ANN and human brain ? Explain.",
+                8
+              ],
+              [
+                "(D)",
+                "Write notes on :\u2014\n  (i) Adaline\n  (ii) Madaline.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "(A)",
+                "Define Counter Propagation Network. Write the characteristics of counter propagation network.",
+                8
+              ],
+              [
+                "(B)",
+                "Explain Kohanan\u2019s-self organizing map and its algorithm.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(C)",
+                "Explain hope-field network in detail.",
+                8
+              ],
+              [
+                "(D)",
+                "Write notes on :\u2014\n  (i) Associative Memory\n  (ii) Bidirectional Associative Memory.",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "(A)",
+                "What is fuzzy set theory ? Write its operations.",
+                8
+              ],
+              [
+                "(B)",
+                "Explain membership function in fuzzy logic system.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "(C)",
+                "What is fuzzy system ? Explain why we need fuzzy system.",
+                8
+              ],
+              [
+                "(D)",
+                "Write notes on :\u2014\n  (i) Fuzzy reasoning\n  (ii) Fuzzy associative memory.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "(A)",
+                "Explain the concept of additional refinements.",
+                4
+              ],
+              [
+                "(B)",
+                "Explain Delta learning rule.",
+                4
+              ],
+              [
+                "(C)",
+                "Explain SVM in detail.",
+                4
+              ],
+              [
+                "(D)",
+                "Write the difference between fuzzification and defuzzification.",
+                4
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "session": "Winter 2024",
+        "code": "SKR/KW/24/1796",
+        "exam": "M.C.A. Second Year Third Semester (New) Examination",
+        "paper_title": "3T5 Core Paper-V - Soft Computing",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "19.jpg",
+            "3T5_Winter_2024_P1.jpg"
+          ],
+          [
+            "20.jpg",
+            "3T5_Winter_2024_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "a)",
+                "Explain AO* algorithm.",
+                8
+              ],
+              [
+                "b)",
+                "Write note on:\n  i) Breadth first search\n  ii) Depth first search",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is computational intelligence? And its applications.",
+                8
+              ],
+              [
+                "d)",
+                "What are the soft computing techniques? Explain.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "a)",
+                "Explain the structure of brain with suitable diagram.",
+                8
+              ],
+              [
+                "b)",
+                "What is an artificial neuron ? Draw a neat labelled diagram showing the model of an artificial neuron.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is learning ? Explain supervised and unsupervised learning.",
+                8
+              ],
+              [
+                "d)",
+                "Write the derivation of EBPA with example.",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "a)",
+                "Explain adaptive resonance theory in detail.",
+                8
+              ],
+              [
+                "b)",
+                "Explain the term associative memory.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is support vector machine? Explain.",
+                8
+              ],
+              [
+                "d)",
+                "Write the characteristics of counter propagation network.",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "a)",
+                "What are the operations on classical sets. Explain.",
+                8
+              ],
+              [
+                "b)",
+                "Explain decomposition and aggregation of fuzzy rules.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Discuss the fuzzy inference systems in detail.",
+                8
+              ],
+              [
+                "d)",
+                "Explain the process of fuzzification in brief.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "a)",
+                "What is iterative deepening ?",
+                4
+              ],
+              [
+                "b)",
+                "Discuss multilayer perceptron.",
+                4
+              ],
+              [
+                "c)",
+                "Explain Bidirectional associative memory.",
+                4
+              ],
+              [
+                "d)",
+                "What is crisp sets of fuzzy systems?",
+                4
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "session": "Summer 2025",
+        "code": "KRS/KS/25/1796",
+        "exam": "M.C.A. Second Year Third Semester (New CBCS) Examination",
+        "paper_title": "3T5 Core Paper-V - Soft Computing",
+        "time": "Three Hours",
+        "max_marks": 80,
+        "images": [
+          [
+            "21.jpg",
+            "3T5_Summer_2025_P1.jpg"
+          ],
+          [
+            "22.jpg",
+            "3T5_Summer_2025_P2.jpg"
+          ]
+        ],
+        "sections": {
+          "Q1": {
+            "either": [
+              [
+                "a)",
+                "What is soft computing? Explain difference between soft computing and hard computing.",
+                8
+              ],
+              [
+                "b)",
+                "Explain in detail AO* Algorithms.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Write a short notes on:\n  i) Bayesian networks.\n  ii) Dempster Shafer Theorem.",
+                8
+              ],
+              [
+                "d)",
+                "Describe Breath First-Search (BFS) algorithms in detail.",
+                8
+              ]
+            ]
+          },
+          "Q2": {
+            "either": [
+              [
+                "a)",
+                "Describe the biological neural network and explain the structure and functioning of the human brain.",
+                8
+              ],
+              [
+                "b)",
+                "Explain:\n  1) Supervised learning\n  2) Unsupervised learning",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "What is perceptron? Explain single layer and multilayer perceptron in detail.",
+                8
+              ],
+              [
+                "d)",
+                "Explain backpropagation network, including the derivation of the Error Back Propagation Algorithm (EBPA)",
+                8
+              ]
+            ]
+          },
+          "Q3": {
+            "either": [
+              [
+                "a)",
+                "What is Counter Propagation Network (CPN)? Explain the architecture of a counter propagation network.",
+                8
+              ],
+              [
+                "b)",
+                "Explain the architecture of Adaptive Resource Theory (ART) model.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain Kohonen\u2019s Self Organizing Map (SOM) in detail.",
+                8
+              ],
+              [
+                "d)",
+                "Write a short notes on:\n  i) Associative memory\n  ii) Support Vector Machine (SVM)",
+                8
+              ]
+            ]
+          },
+          "Q4": {
+            "either": [
+              [
+                "a)",
+                "Define Fuzzy sets and explain operations on Fuzzy sets with examples.",
+                8
+              ],
+              [
+                "b)",
+                "Define fuzzification and explain it\u2019s importance in fuzzy systems.",
+                8
+              ]
+            ],
+            "or": [
+              [
+                "c)",
+                "Explain membership function in Fuzzy logic system.",
+                8
+              ],
+              [
+                "d)",
+                "Explain Fuzzy associative memory in detail.",
+                8
+              ]
+            ]
+          },
+          "Q5": {
+            "compulsory": [
+              [
+                "a)",
+                "Discuss the graph representation of search problem.",
+                4
+              ],
+              [
+                "b)",
+                "Explain Hebbian learning with an example.",
+                4
+              ],
+              [
+                "c)",
+                "Explain characteristics and application of Hopfield network.",
+                4
+              ],
+              [
+                "d)",
+                "Write a notes on Fuzzy reasoning.",
+                4
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  }
+};

@@ -338,6 +338,10 @@ async function renderCanvasBody() {
               onclick="setViewMode('syllabus')">
         📖 Full Syllabus
       </button>
+      <button class="study-tab-btn ${AppState.currentViewMode === 'super_imp_subject' ? 'active' : ''}" 
+              onclick="openSubjectSuperImp('${currentSubj.code}')" style="${AppState.currentViewMode === 'super_imp_subject' ? 'background:#F59E0B; color:white; border-color:#F59E0B;' : ''}">
+        ⚡ Super IMP Bank
+      </button>
       <button class="study-tab-btn ${AppState.currentViewMode === 'imp_questions' ? 'active' : ''}" 
               onclick="setViewMode('imp_questions')">
         🔥 RTMNU Exam Papers
@@ -1013,4 +1017,45 @@ window.calculateLiveCgpa = function() {
     badgeEl.textContent = "Second Class";
     badgeEl.style.background = "#6B7280";
   }
+};
+
+window.openSubjectSuperImp = async function(subjectCode) {
+  const currentSubj = MCA_DATA.subjects.find(s => s.code === subjectCode) || MCA_DATA.subjects[0];
+  AppState.currentSubjectId = currentSubj.id;
+  AppState.currentViewMode = "super_imp_subject";
+  
+  const pyqKey = Object.keys(window.MCA_PYQ_DATA || {}).find(k => k.startsWith(subjectCode));
+  const mdPath = `pyq/${pyqKey}/${subjectCode}_SUPER_IMP_QUESTIONS.md`;
+  
+  const breadcrumbEl = document.getElementById("canvasBreadcrumb");
+  if (breadcrumbEl) {
+    breadcrumbEl.innerHTML = `
+      <span class="breadcrumb-folder">${currentSubj.category}</span> / 
+      <span>${currentSubj.code}</span> / 
+      <span style="color: var(--text-main); font-weight: 700;">⚡ Super IMP Question Bank</span>
+    `;
+  }
+
+  const proseContainer = document.getElementById("markdownProseContent");
+  const tocContainer = document.getElementById("tocList");
+
+  const tabsHTML = `
+    <div class="study-mode-tabs">
+      <button class="study-tab-btn" onclick="setViewMode('syllabus')">📖 Full Syllabus</button>
+      <button class="study-tab-btn active" onclick="openSubjectSuperImp('${subjectCode}')" style="background:#F59E0B; color:white; border-color:#F59E0B;">⚡ Super IMP Bank</button>
+      <button class="study-tab-btn" onclick="setViewMode('imp_questions')">🔥 RTMNU Exam Papers</button>
+      <button class="study-tab-btn" onclick="setViewMode('solved_answers')">💡 Solved Answers</button>
+      <button class="study-tab-btn" onclick="setViewMode('blueprint')">📊 Exam Blueprint</button>
+    </div>
+  `;
+
+  let md = await fetchMarkdown(mdPath);
+  const parsedHTML = marked.parse(md);
+  proseContainer.innerHTML = tabsHTML + `<div class="markdown-prose">${parsedHTML}</div>`;
+  postProcessMarkdown(proseContainer);
+  buildTableOfContents(proseContainer, tocContainer);
+
+  renderSidebar();
+  renderTopicList();
+  updateUrlHash();
 };
